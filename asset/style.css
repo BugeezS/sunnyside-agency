@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css2?family=Fraunces:wght@700;900&display=swap");
+body .trans_section .trans_first_p {
+  font-size: 18px;
+}
+
+header {
+  background-image: url(/img/mobile/image-header.jpg);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+}
+
+.top_menu {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 20px;
+  padding-top: 25px;
+}
+.top_menu .outline {
+  width: 24px;
+  height: 24px;
+  fill: white;
+}
+
+.top_menu_der {
+  display: none;
+}
+
+.contain_header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.contain_header .main_title {
+  text-align: center;
+  font-family: "Fraunces", serif;
+  font-weight: 900;
+  padding-top: 10px;
+  text-transform: uppercase;
+  font-size: 25px;
+  color: #ffffff;
+}
+.contain_header img {
+  padding-bottom: 119px;
+  height: 107.48px;
+  width: 30px;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+body .trans_section {
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+}
+body .trans_section h2 {
+  font-size: 32px;
+}
+body .graph_section {
+  display: flexbox;
+  flex-direction: column;
+  text-align: center;
+  height: 600px;
+  background-image: url(/img/mobile/image-graphic-design.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+body .graph_section h2 {
+  padding-top: 400px;
+}
+body .photo_section {
+  background-image: url(/img/mobile/image-photography.jpg);
+  height: 600px;
+  background-size: cover;
+  background-repeat: repeat;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+body .photo_section h2 {
+  padding-top: 400px;
+}/*# sourceMappingURL=style.css.map */
