@@ -3,6 +3,10 @@
 %font_text{
     font-size: 18px;
 }
+%size_img{
+    width: 188px;
+    height: 188px;
+}
 // Modification du header 
 header{
     background-image: url(/img/mobile/image-header.jpg);
@@ -19,6 +23,7 @@ header{
     justify-content: space-between;
     padding-left: 20px;
     padding-top: 25px;
+    padding-right: 20px;
     .logo{
         // padding-top: 20px;
         // padding-left: 20px;
@@ -89,6 +94,44 @@ body{display: flex;
         text-align: center;
         h2{
             padding-top: 400px;
+        }
+    }
+    .client_section{
+        display: flex;
+        text-align: center;
+        flex-direction: column;
+    }
+    .four_box_img{
+        display: grid;
+        grid-template-columns: 188px 188px;
+        grid-template-rows: 188px 188px;
+        height: 376px ;
+        width: 375px;
+        .milk { 
+            @extend %size_img;
+        }
+        .orange{
+            @extend %size_img;
+        }
+        .sugar{
+            @extend %size_img;
+        }
+        .ice{
+            @extend %size_img;
+        }
+        
+    }
+    .footer_site{
+        background-color: #90D4C6;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        height: 350px;
+        justify-content: center;
+        align-content: center;
+        .logo_foot{
+            width: 170px;
+            height: 33px; 
         }
     }
 }

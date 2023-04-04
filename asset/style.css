@@ -3,6 +3,11 @@ body .trans_section .trans_first_p {
   font-size: 18px;
 }
 
+body .four_box_img .ice, body .four_box_img .sugar, body .four_box_img .orange, body .four_box_img .milk {
+  width: 188px;
+  height: 188px;
+}
+
 header {
   background-image: url(/img/mobile/image-header.jpg);
   background-size: cover;
@@ -18,6 +23,7 @@ header {
   justify-content: space-between;
   padding-left: 20px;
   padding-top: 25px;
+  padding-right: 20px;
 }
 .top_menu .outline {
   width: 24px;
@@ -85,4 +91,29 @@ body .photo_section {
 }
 body .photo_section h2 {
   padding-top: 400px;
+}
+body .client_section {
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+}
+body .four_box_img {
+  display: grid;
+  grid-template-columns: 188px 188px;
+  grid-template-rows: 188px 188px;
+  height: 376px;
+  width: 375px;
+}
+body .footer_site {
+  background-color: #90D4C6;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  height: 350px;
+  justify-content: center;
+  align-content: center;
+}
+body .footer_site .logo_foot {
+  width: 170px;
+  height: 33px;
 }/*# sourceMappingURL=style.css.map */
