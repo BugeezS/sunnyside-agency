@@ -461,7 +461,7 @@
     text-align: center;
     width: 720px;
     height: 600px;
-    background-image: url(./img/desktop/image-graphic-design.jpg);
+    background-image: url(../img/desktop/image-graphic-design.jpg);
     background-size: cover;
     background-repeat: no-repeat;
   }
